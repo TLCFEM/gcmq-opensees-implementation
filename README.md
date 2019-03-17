@@ -15,3 +15,4 @@ element GCMQ (1) (2...5) (6) (7) [8]
 # [8] int, integration scheme tag, 1<=>I, 2<=>L, 3<=>G, default: 1
 ```
 
+Since GCMQ needs to compute inverse of several matrices, external library OpenBLAS is used.
