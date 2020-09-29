@@ -16,3 +16,5 @@ element GCMQ (1) (2...5) (6) (7) [8]
 ```
 
 Since GCMQ needs to compute inverse of several matrices, external library OpenBLAS is used.
+
+For better functionality, GCMQ is also implemented in [suanPan](https://github.com/TLCFEM/suanPan). Readers are recommended to try it out!
